@@ -40,8 +40,6 @@ dependencies {
 
     compileOnly("dev.architectury:architectury-fabric:${property("architectury_version")}")
 
-    compileOnly("maven.modrinth:automodpack:${property("automodpack_version")}")
-
     compileOnly("maven.modrinth:veil:${property("veil_version")}-fabric,1.21.1")
     compileOnly("maven.modrinth:3KUWeVhG:${property("veil_version")}-neoforge,1.21.1") // funny workaround to get Veil Neo to be downloaded
 
